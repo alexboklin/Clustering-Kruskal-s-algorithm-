@@ -59,8 +59,6 @@ def main():
         clusters[toFill] =  clusters[toFill].union(clusters[toDel])
         del clusters[toDel]
 
-
-
     if args.s:
         print("The maximum spacing of a {}-clustering is: {} (between vertices {} and {})".format(k, extract[0], int(extract[1]), int(extract[2]))) 
 
@@ -71,5 +69,4 @@ def main():
         print("--- {} seconds ---".format(time.process_time() - start))
 
 if __name__ == "__main__":
-    main()   
-
+    main()  
