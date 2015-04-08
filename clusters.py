@@ -1,7 +1,8 @@
+# Python 3.4.2
+
 import heapq
 import time
 import argparse
-
 import sys
 
 def main():
