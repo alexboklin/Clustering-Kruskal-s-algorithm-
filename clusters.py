@@ -9,7 +9,7 @@ def main():
 
     start = time.process_time()
 
-    parser = argparse.ArgumentParser(description="Implements Prim's minimum spanning tree algorithm.")
+    parser = argparse.ArgumentParser(description="Implements a clustering algorithm (Kruskal's algorithm) for computing a max-spacing k-clustering.")
     parser.add_argument("-s", help="the maximum spacing of a k-clustering", action="store_true")
     parser.add_argument("-c", help="clusters", action="store_true")
     parser.add_argument("-t", help="execution time", action="store_true")
